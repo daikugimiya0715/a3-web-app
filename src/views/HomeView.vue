@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import TimeLine from '@/components/TimeLine.vue'
+import Sidebar from '../components/SideBarDrawer.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="flex justify-center">
+    <Sidebar></Sidebar>
+    <TimeLine></TimeLine>
+  </div>
 </template>
